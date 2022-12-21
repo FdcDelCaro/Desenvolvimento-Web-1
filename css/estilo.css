@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2? family= Cormorant+Infant & display=swap');
+
+.video{
+    justify-content: right;
+    align-items: right;
+    float: right;
+    width: 718px;
+    height: 406px;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 1em;
+    border: 5px solid lightgray;
+    border-style: groove;
+    
+  
+   
+
+    
+   
+}
+
+.fotos{
+    
+    margin: 1px;
+    padding: 1px;
+    border-radius: 20px;
+    border-width: 2cm;
+
+}
+
+.central_img { 
+    display:         flex;
+    display: -webkit-flex; /* Garante compatibilidade com navegador Safari. */
+    margin: 1px;
+    padding: 1px;
+    justify-content: left;
+    align-items: left;
+    float: left;
+   
+    
+} 
+
+.textointro { 
+    display:         flex;
+    display: -webkit-flex; /* Garante compatibilidade com navegador Safari. */
+
+    justify-content: left;
+    align-items: left;
+    background-color: black;
+    opacity : 0.70;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 20px;
+    border-width: 2cm;
+
+    
+} 
+
+
+.ing{
+    background-color: #F09714;
+    margin: 50px auto;
+    width: 30%;
+    justify-content: center;
+    height: 30%px;
+    align-items: center;
+    border: 10px;
+    display:         flex;
+    border-style: groove;
+
+}
+    
+
+.home{
+    margin: 0%;
+    padding: 0%;
+    background-image: url("../img/ridermanaus.jpg");
+    background-repeat: no-repeat;
+    background-position:unset;
+    background-size:100%;
+    
+    
+    
+
+}
+body{
+background-color: black;
+}
+h1 { 
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    padding: 5px;
+    margin: 2px;
+    color: rgb(216, 118, 7);
+    text-align: left;
+    font-size: 32px;
+    font-family: 'DM Serif Display' 
+
+    
+}
+
+.titulo1 { 
+    margin: 0%;
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'DM Serif Display' 
+
+}
+
+.receita2 { 
+    margin: 1%;
+    color: black;
+    text-align: justify;
+    font-size: 22px;
+    font-family: 'DM Serif Display'
+
+
+}
+
+.lista
+{
+    font-family: "Cormorant Infant display";
+    text-align: justify;
+    margin: 1em;
+    color: black;
+    padding: 50px 20px;
+    font-size: 20px;
+}
+
+h2
+{ 
+    text-shadow: 1px 2px 2px rgb(0, 0, 0);
+    padding: 5px;
+    margin: 2px;
+    color:#F09714; 
+    text-align: left;
+    font-size: 20px;
+    font-family: 'DM Serif Display' 
+}
+h3
+{ 
+    margin: 5px;
+    color:white; 
+    text-align: left;
+    font-size: 20px;
+    font-family: 'DM Serif Display' 
+}
+
+.titulo3
+{ 
+    margin: 0%;
+    color: black;;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'DM Serif Display' 
+}
+.pinicial{
+   
+    font-family:"Cormorant Infant display";
+    text-align: justify;
+    font-size: 18px;
+    margin: 1em;
+    color: white   ;
+    padding: 2px;
+}
+
+.p2{
+   
+    font-family:"Cormorant Infant display";
+    text-align: justify;
+    margin: 1em;
+    color: white;
+}
+
+.diag{
+   
+    font-family:"Cormorant Infant display";
+    text-align: justify;
+    margin: 1em;
+    color: black;
+}
+
+
+p{
+    font-family: "Cormorant Infant display";
+    text-align: justify;
+    margin: 1em;
+}
+
+.receita{
+    display:         flex;
+    display: -webkit-flex; /* Garante compatibilidade com navegador Safari. */
+
+    justify-content: center;
+    align-items: center;
+    border-left: 2cm;
+    text-align: center;
+    border-style: unset;
+    border: 10px solid hsl(#252525, 80, 100); 
+
+}
+
+
+
+.titlenome
+{
+    font-family: DM Serif Display;
+    text-align: justify;
+    margin: 1em;
+}
+.link {
+        font: size 18px;    
+        font-family:"Cormorant Infant display";
+        text-align: center;
+        
+        
+    }
+a:link{
+    color: #f09714;  
+    text-decoration:seashell; 
+
+}
+
+a:hover{
+    background-color: #F09714;
+    color: black;
+    }
+
+img
+{
+    width: 400px;
+    
+}
+
+    .receita
+{
+    text-align: center;
+}
+
+.historia{
+    background-color: silver;
+   
+   
+}
+
+
+
+.diagram_site{
+    background-color: silver;
+   
+   
+}
+
+.pquebra{
+    clear:both;
+}
+
+
+.direita { 
+   
+    float: right;
+   
+    
+}
+.bolo { 
+   
+    float: right;
+    width: 30%;
+    margin: 10px;
+    border-color: #F09714;
+    border-style: groove;
+    
+    
+}
+
+.esquerda { 
+    
+    float: left;
+}
+
+.pquebra{
+    clear:both;
+}
+.direita{
+    border: 1px solid rgb(0, 0, 0);
+    width: 20%;
+    margin: 15px 
+}
+.esquerda{
+    border: 1px solid rgb(0, 0, 0);
+    width: 20%;
+    margin: 15px 
+}              
+
+
+/*
+* {
+	margin: 0;
+	padding: 0;
+}
+*/
+
+
+
+ul {
+	list-style-type: none;
+    margin: 0%;
+    opacity : 0.90;
+    
+}
+
+#menu-principal {
+	width: 100%;
+	margin: 0 auto;
+	float: right;
+	z-index: 1;
+    margin: 0;
+	padding: 0;
+	height: 3em;
+	padding: 1em;
+	float: left;
+    margin: 0;
+	padding: 0;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+
+
+}
+
+#menu-principal li {
+	position: relative;
+	float: left;
+    border-radius: 2;
+}
+
+#menu-principal a {
+	display: block;
+	float: left;
+	padding: 1em 15px;
+	color: rgb(255, 255, 255);
+	background:#000000;
+	text-decoration:double;
+	line-height: 1em;
+}
+
+
+
+#menu-principal li a:hover {
+	background: #F09714;
+    font-style: italic;
+    
+    
+    font-size: large;
+    opacity: 100;
+    
+}
+
+#menu-principal li ul {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+    margin: 0%;
+	padding: 0%;
+}
+
+#menu-principal li:hover ul {
+	display:block;
+}
+
+#menu-principal li ul a {
+	width: 220px;
+}

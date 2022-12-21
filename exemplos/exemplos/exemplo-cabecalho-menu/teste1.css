@@ -1,0 +1,63 @@
+#limpa {
+	clear: both;
+}
+
+#topo {
+	height: 20%;
+	margin-bottom: 20px;
+}
+
+#imag1 {
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+
+#imag1 img {
+	width: 100%;
+	height: 100%;
+}
+
+#texto {
+	float: right;
+	width: 50%;
+	height: 100%;
+	text-align: justify;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+#menu {
+	margin-bottom: 50px;
+	margin: auto;
+}
+
+#menu ul {
+	list-style-type: none;
+}
+
+#menu ul li {
+	float: left;
+	width: 100px;
+	background-color: blue;
+	text-align: center;
+	border: 2 solid white;
+	color: white;
+	font-family: verdana;
+	font-weight: bold;
+	padding: 5px;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+#menu ul li a:hover {
+	color: blue;
+}
+
+#menu ul li:hover {
+	background-color: yellow;
+}
+

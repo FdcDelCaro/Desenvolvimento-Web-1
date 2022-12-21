@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Tabelas e CSS</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="tabela.css" />
+		<script type="text/JavaScript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<script type="text/javascript" src="codigo-zebra.js"></script>
+	</head>
+
+	<body>
+	<h1> Refer&ecirc;ncia: </h1>
+	<h3> http://icant.co.uk/csstablegallery</h3>
+	<br /> 
+    <table summary="Tipos de tabelas" id="minhatabela">
+      <caption>
+        Tipos de design de tabelas
+      </caption>
+
+      <thead>
+        <tr>
+          <th scope="col">
+            Número
+          </th>
+          <th scope="col">
+            Aluno
+          </th>
+          <th scope="col">
+            Nota 1
+          </th>
+          <th scope="col">
+            Nota 2
+          </th>
+          <th scope="col">
+            Média
+          </th>
+        </tr>
+      </thead>
+
+      <tfoot>
+        <tr>
+          <th scope="row">
+            Média Final
+          </th>
+          <td colspan="4">
+            não importa agora.....
+          </td>
+        </tr>
+      </tfoot>
+
+      <tbody>
+
+		<tr>
+			<th scope="row">01</th>
+			<td>AAAA</td>
+			<td>5</td>
+			<td>7</td>
+			<td>6</td>
+		</tr>
+
+		<tr>
+			<th scope="row">02</th>
+			<td>BBBB</td>
+			<td>7</td>
+			<td>7</td>
+			<td>7</td>
+		</tr>
+
+		<tr>
+			<th scope="row">03</th>
+			<td>CCCC</td>
+			<td>10</td>
+			<td>8</td>
+			<td>9</td>
+		</tr>
+
+		<tr>
+			<th scope="row">04</th>
+			<td>DDDD</td>
+			<td>8</td>
+			<td>6</td>
+			<td>7</td>
+		</tr>
+
+		<tr>
+			<th scope="row">05</th>
+			<td>EEEE</td>
+			<td>5</td>
+			<td>9</td>
+			<td>7</td>
+		</tr>
+
+		<tr>
+			<th scope="row">06</th>
+			<td>FFFF</td>
+			<td>6</td>
+			<td>10</td>
+			<td>8</td>
+		</tr>
+
+		<tr>
+			<th scope="row">07</th>
+			<td>GGGGG</td>
+			<td>7</td>
+			<td>7</td>
+			<td>7</td>
+		</tr>
+
+      </tbody>
+
+    </table>
+
+	<!-- script> zebra('minhatabela', 'odd'); </script-->
+	<script> $( "table#minhatabela tr:odd" ).addClass( "odd" ); </script>
+	
+	</body>
+</html>

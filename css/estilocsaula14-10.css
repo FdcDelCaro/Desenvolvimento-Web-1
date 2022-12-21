@@ -1,0 +1,20 @@
+body {
+    background-image: url("../img/horizon.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+p { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.2  em;
+    color: rgb(255, 255, 255)
+    
+    
+}
+img { 
+  max-width: 60%;
+  max-height: 60%;
+       
+}

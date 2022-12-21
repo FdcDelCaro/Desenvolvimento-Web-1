@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin: 1em;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'DM Serif Display', sans-serif;
+    margin: 0%;
+}
+h1
+{
+    text-align: justify;
+}
+h2{
+    color: brown;
+}
+
+h3{
+    font-family: 'DM Serif Display'
+}
+
+
+
+body{
+    background-color: silver;)
+   
+   
+}
+
+.pquebra{
+    clear:both;
+}
+.direita{
+    border: 1px solid rgb(0, 0, 0);
+    width: 30%;
+    margin: 15px 
+}
+.esquerda{
+    border: 1px solid rgb(0, 0, 0);
+    width: 30%;
+    margin: 15px 
+}              
+
+.direita { 
+   
+    float: right;
+   
+    
+}
+
+.esquerda { 
+    
+    float: left;
+}

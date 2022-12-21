@@ -1,0 +1,32 @@
+body{
+    background-image: url("img/motocustom.jpg"); 
+}
+
+.titulo { 
+    
+    font-size: 32;
+    font-family: 'Franklin Gothic Medium';
+    color:white
+}
+.lista {font-size: 18;
+    font-family: Verdana;
+    color:red
+     }
+
+    
+    .sp {font-size: 22px;
+        font-family:'Times New Roman', Times, serif;
+        color:rgb(255, 255, 255)
+         }
+.link {font-size: 22;
+        font-family: Impact;
+        color:red
+
+}
+
+img
+
+{
+    width: 400px;
+    
+}

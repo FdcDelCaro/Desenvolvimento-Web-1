@@ -1,0 +1,26 @@
+body 
+{
+	font-family: calibri;
+	font-size: 2em; 
+}
+
+ul li a:link, ul li a:visited 
+{
+   color: #4f4f4f
+}
+
+ul li a:hover
+{
+	color: #fff;
+	background: #006400;
+}
+
+ul 
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+	top: 50px;
+}
+

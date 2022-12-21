@@ -1,0 +1,101 @@
+
+Layout em tableless
+Tableless É uma forma de desenvolvimento que usa as divs para estruturar cada conteúdo do blog, ao invés das tabelas :<td>, <tr>, <table> sendo que tudo fica por conta do css da largura ao posicionamento de cada elemento.Veja informações aqui
+
+Aqui esta a base:
+
+<html>
+<head>
+<title>Nome do seu blog</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+</head>
+<body>
+<!-- page -->
+<div >
+
+<div ></div>
+
+
+<div >
+Lateral, adicione aqui o conteúdo desejado.
+</div>
+
+
+<div >
+Adicione aqui o conteúdo 
+</div>
+
+<div >
+Conteúdo do footer
+</div>
+
+<!-- fim da page -->
+</div>
+</body>
+</html>
+Aplicando no css
+Básico:
+
+/*** body!*/
+html, body{
+margin:0;
+padding:0;
+background-color:#f8f7f7; /* cor do fundo */
+background-image:url("/bg.png"); /* bg */
+font-size:13px; /* tamanho da fonte */
+color:#777777;/* cor da fonte */
+font-family:Arial;/* fonte */
+text-align:justify; /* texto alinhado */
+}
+Meio do layout:
+
+/*** meio do layout!*/
+#page{
+background: url("/meio.png"); /* imagem do meio do layout */
+background-repeat:repeat-y; /* se repetira na vertical */
+width:790px; /* largura da página */
+margin-left:auto;
+margin-right:auto;/* centralizado */
+}
+Topo do layout:
+
+/*** topo do blog! */
+#header{
+height:250px; /* altura do header */
+Background: url("/topo.png"); /*Imagem do topo  */
+background-repeat:no-repeat;
+}
+Área dos posts:
+
+/*** conteúdo dos posts!*/
+#conteudo-post{
+margin-top:-70px; /* ajuste sempre com um valor -negativo */
+width:475px; /* largura do conteúdo dos posts */
+float:left;/* alinhado ao lado direito */
+padding-left:45px; 
+}
+Àrea da sidebar:
+
+/*** sidebar!*/
+#sidebar{
+margin-top:-60px; /* ajuste - coloque sempre um valor -negativo */
+padding-left:22px; /* ajuste para alinhar ao lado direito */
+float:left; /* alinhado ao lado esquerdo */
+width:220px; /* largura da sidebar! */
+}
+Final do layout:
+
+/*** footer!*/
+#rodape{
+padding:6px 25px 0 0;
+text-align:right; /* tetxo alinhado á direita */
+/* imagem na largura de 790px e na altura de 88px */
+background: url("/footer.png"); /* imagem do footer */
+background-repeat:no-repeat; /* não se repetirá */
+height: 88px; /* altura do footer */
+clear: both;/* ficará abaixo dos posts */
+}
+Para ajustar, alinhar é só usar padding e margin.
+
+ 
+Adicione o css entre <style type="text/css"> e </style> e insira antes da tag </head>.

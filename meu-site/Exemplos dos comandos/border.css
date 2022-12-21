@@ -1,0 +1,39 @@
+/*p{
+    border: 9px solid rgb(205, 20, 20);
+} /* Deixa a borda cor solida, px é largura dessa borda */
+
+/*p{
+    border: 6px dotted rgb(18, 12, 12);
+} /* Deixa a borda  toda em círculo , px é largura dessa borda */
+
+/*p{
+    border: 9px dashed rgb(205, 20, 20);
+} /* Deixa a borda retangular, px é largura dessa borda */
+
+/*p{
+    border: 9px double rgb(205, 20, 20);
+} /* duplica a borda, px é largura dessa borda */
+
+/*p{
+    border: 9px groove rgb(205, 20, 20);
+} /* deixa a borda ressaltada, px é largura dessa borda */
+
+/*p{
+    border: 9px ridge rgb(205, 20, 20);
+} /* deixa a borda ressaltada, px é largura dessa borda */
+
+/*p{
+    border: 9px inset rgb(205, 20, 20);
+} /* deixa parte de cima da borda um tom mais escuro, px é largura dessa borda */
+
+/*p{
+    border: 9px outset rgb(205, 20, 20);
+} /* deixa parte de baixo da borda um tom mais escuro, px é largura dessa borda */
+
+/*p{
+    border: 9px none rgb(205, 20, 20);
+} /* deixa sem borda, px é largura dessa borda */
+
+/*p{
+    border: 9px hidden rgb(205, 20, 20);
+} /* deixa oculta a borda , px é largura dessa borda */

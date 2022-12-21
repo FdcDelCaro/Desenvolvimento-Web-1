@@ -1,0 +1,13 @@
+
+div.esq {
+	border: 1px solid red;
+	float: left;
+	width: 30%;
+	background-color:#F39F9F
+}
+
+div.centro {
+	border: 1px solid green;
+	width: 50%;
+	background-color:#D1F5A6;
+}

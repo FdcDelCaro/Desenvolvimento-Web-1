@@ -1,0 +1,15 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<form>
+    <input type="text" name="searchtext">
+    <input type="button" value="ok" onClick="getData(this.parentNode)" />
+</form>
+<pre id="disp"></pre>
+
+<script>
+    function dispData(e) {
+        $('#disp').text(JSON.stringify(e));
+    }
+    function getData(e) {
+        google.script.run.withSuccessHandler(dispData).getData(e);
+    }
+</script>

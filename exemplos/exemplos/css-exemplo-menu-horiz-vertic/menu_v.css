@@ -1,0 +1,17 @@
+
+ul
+ {
+	border-bottom: 2px solid green;
+	width: 8em; 
+}
+
+ul li a 
+{
+	text-decoration: none;
+	display: block;
+	border: 2px solid green;
+	background-color: #98fb98;
+	border-bottom: 0; 
+	padding-left: 50px;
+}
+

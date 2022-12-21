@@ -1,0 +1,6 @@
+http://www.slideshare.net/talitapagani/construindo-layout-de-sites-com-css
+
+
+http://bonrouge.com/hcf-fluid.php
+
+http://limpid.nl/lab/css/fixed/header-and-footer

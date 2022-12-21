@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2? family= Cormorant+Infant & display=swap');
+
+
+h1{
+    font-family: 'DM Serif Display'
+}
+
+h2{
+    font-family: 'DM Serif Display'
+}
+
+h3{
+    font-family: 'DM Serif Display'
+}
+
+p{
+    font-family: font-family:"Cormorant Infant display";
+    text-align: justify;
+    margin: 1em;
+}
+
+body{
+    background-color: silver;
+   
+   
+}
+
+.pquebra{
+    clear:both;
+}
+img{
+    border: 1px solid blue;
+    width: 20%;
+    margin: 10px 
+}
+
+.direita { 
+   
+    float: right;
+   
+    
+}
+
+.esquerda { 
+    
+    float: left;
+}
